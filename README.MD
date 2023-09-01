@@ -14,28 +14,32 @@ Certifique-se de ter o Node.js instalado em seu sistema.
    ```bash
    git clone https://github.com/jolaiana/Organizador-de-dados.git
 
-#### 2) Executando o Projeto
+### 2) Executando o Projeto
 - Instalando as dependências:
 Antes de iniciar a ferramenta, é importante instalar as dependências necessárias. No terminal, dentro da pasta do projeto, execute:
 
-node css-sorter.js
+ ```bash
+ node css-sorter.js
 
 - Iniciando a Ferramenta:
 Com as dependências instaladas, você já pode executar o projeto. Digite o seguinte comando no terminal:
 
-node Script.js
+ ```bash
+ node Script.js
 
 O programa agora estará em execução e solicitará que você insira as propriedades de CSS desejadas.
 
-##### 3) Utilizando a Ferramenta
+### 3) Utilizando a Ferramenta
 No terminal, digite uma propriedade de CSS (exemplo: background-color) e pressione Enter.
 Continue inserindo outras propriedades que deseja ordenar.
 Quando terminar, digite "SAIR" e pressione Enter.
 A ferramenta exibirá a lista de propriedades de CSS em ordem alfabética.
 
-###### 4) Exemplos de Respostas
+### 4) Exemplos de Respostas
 Sucesso:
 Se você inserir as propriedades color, font-size e background-color e, em seguida, digitar "SAIR", a saída será:
+
+ ```bash
 Propriedades ordenadas:
 background-color
 color
@@ -43,6 +47,8 @@ font-size
 
 Erro:
 Se você inserir um valor inválido como 12345, a ferramenta exibirá:
+
+ ```bash
 Por favor, insira uma propriedade válida (somente letras e traços).
 
 ## Referências 
